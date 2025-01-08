@@ -1,0 +1,182 @@
+/*# sourceMappingURL=style.css.map */
+header{display: flex;
+    justify-content: space-between;
+    padding:2%;align-items: center;
+    img{height:80px;}
+    nav{
+        ul{display: flex;
+          li{list-style: none;
+            padding: 0 15px;
+        justify-content: space-between;
+    text-decoration: none;
+a{text-decoration: none;color: black;}
+}   
+        }
+    }
+}
+.hero{justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./images/team.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+    header{display: flex;
+        justify-content: space-between;
+        padding:5%;align-items: center;
+        img{height:80px;}
+        nav{
+            ul{display: flex;
+              li{list-style: none;
+                padding: 0 15px;
+            justify-content: space-between;
+        text-decoration: none;
+    a{text-decoration: none;color: black;}
+    }   
+            }
+        }
+    }
+    
+    h1{
+       font-size: 90px;
+       -webkit-text-stroke: 3px orangered;
+       color: #fff;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode',
+        Geneva, Verdana, sans-serif;
+    }
+    button{
+        color: #fff;
+        background-color: orangered;
+        border-radius: 9px;
+        border: none;
+        margin-top: 50px;
+        
+    }
+}
+.paragraph{
+justify-content: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.partners{
+    h2{
+        text-align: center;
+    }
+    img{
+        height: 90px;
+        margin-bottom: 15px;
+    }
+}
+
+.pro{
+    background-color: orange;
+    color: #fff;
+    .con{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 150px 200px;
+        h1{
+            font-size: 50px;
+            text-transform: uppercase;
+            
+
+        }
+        p{
+            font-size: 18px;
+        }
+        button{
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 25px;
+            border: none;
+            outline: #fff solid 3px ;
+
+            
+        }
+    }
+}
+.contact{
+    background-image:url(./images/equipment.png ) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 400px;
+    .form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px 50px; height: 500px; 
+        background-color:gray ;
+        h1{
+            text-transform: uppercase;
+        }
+        input{
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+    }   .inputs{
+        width: 100%;
+        input{
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+        textarea{
+            height: 180px;
+            margin-bottom: 10px;
+            
+        }
+        button{
+            background-color: orange;
+            border: none;
+            margin-left: 300px;
+        }
+    }
+
+    
+}
+.footer{background-color: orangered;
+color:white;
+border-width: 100px;
+height: max-content;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

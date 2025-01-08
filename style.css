@@ -1,0 +1,158 @@
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  align-items: center;
+}
+header img {
+  height: 80px;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li {
+  list-style: none;
+  padding: 0 15px;
+  justify-content: space-between;
+  text-decoration: none;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.hero {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-image: url(./images/team.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+  align-items: center;
+}
+.hero header img {
+  height: 80px;
+}
+.hero header nav ul {
+  display: flex;
+}
+.hero header nav ul li {
+  list-style: none;
+  padding: 0 15px;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.hero header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+.hero h1 {
+  font-size: 90px;
+  -webkit-text-stroke: 3px orangered;
+  color: #fff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.hero button {
+  color: #fff;
+  background-color: orangered;
+  border-radius: 9px;
+  border: none;
+  margin-top: 50px;
+}
+
+.paragraph {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partners h2 {
+  text-align: center;
+}
+.partners img {
+  height: 90px;
+  margin-bottom: 15px;
+}
+
+.pro {
+  background-color: orange;
+  color: #fff;
+}
+.pro .con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 150px 200px;
+}
+.pro .con h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+.pro .con p {
+  font-size: 18px;
+}
+.pro .con button {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 25px;
+  border: none;
+  outline: #fff solid 3px;
+}
+
+.contact {
+  background-image: url(./images/equipment.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 400px;
+}
+.contact .form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 50px;
+  height: 500px;
+  background-color: gray;
+}
+.contact .form h1 {
+  text-transform: uppercase;
+}
+.contact .form input {
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.contact .inputs {
+  width: 100%;
+}
+.contact .inputs input {
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.contact .inputs textarea {
+  height: 180px;
+  margin-bottom: 10px;
+}
+.contact .inputs button {
+  background-color: orange;
+  border: none;
+  margin-left: 300px;
+}
+
+.footer {
+  background-color: orangered;
+  color: white;
+  border-width: 100px;
+  height: -moz-max-content;
+  height: max-content;
+}/*# sourceMappingURL=style.css.map */
